@@ -16,3 +16,26 @@ CREATE TABLE students (
     salary INTEGER              -- Salary (nullable)
 );
 
+-- DATA CLEANING
+
+SELECT * FROM students limit 10
+
+SELECT *
+FROM students 
+WHERE gender IS NULL
+	OR ssc_p IS NULL
+	OR ssc_b IS NULL
+	OR hsc_p IS NULL
+	OR hsc_s IS NULL
+	OR degree_p IS NULL
+	OR degree_t IS NULL
+	OR workex IS NULL
+	OR etest_p IS NULL
+	OR specialisation IS NULL
+	OR mba_p IS NULL
+	OR status IS NULL
+	OR salary IS NULL
+-- 67 null values in salary = no placed status
+
+-- 
+
