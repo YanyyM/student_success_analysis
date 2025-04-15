@@ -32,7 +32,7 @@ This project explores the **factors that influence student salary outcomes** aft
 
 ---
 
-## 📊 Example Questions Answered
+## 📊 Questions Answered
 
 1. **What is the expected change in salary for a 1-point increase in employability test score?**
 2. **Is there a significant salary difference between students with and without work experience?**
