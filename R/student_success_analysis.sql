@@ -37,5 +37,13 @@ WHERE gender IS NULL
 	OR salary IS NULL
 -- 67 null values in salary = no placed status
 
--- 
+
+-- QUESTIONS ANSWERED
+
+-- 1. What is the expected change in salary for a 1-point increase in employability test score?
+-- Interpretation: Find the relationship between employability test sore and salary.
+
+SELECT etest_p, salary
+FROM students
+WHERE salary IS NOT NULL AND etest_p IS NOT NULL;
 
